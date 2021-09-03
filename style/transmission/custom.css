@@ -2,8 +2,15 @@ body {
     background-color: #222;
 }
 
+#statusbar,
+div#toolbar {
+    background: #444;
+    border-color: #333;
+}
+
 ul.torrent_list li.torrent {
     background-color: #222;
+    border-color: #111;
 }
 
 ul.torrent_list li.torrent.even {
@@ -12,4 +19,8 @@ ul.torrent_list li.torrent.even {
 
 ul.torrent_list li.torrent div.torrent_name {
     color: #e9e9e9;
+}
+
+ul.torrent_list li.torrent.selected {
+    background-color: #1a1a1a;
 }

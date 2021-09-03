@@ -38,3 +38,21 @@ ul.torrent_list li.torrent div.torrent_name {
 ul.torrent_list li.torrent.selected {
     background-color: #1a1a1a;
 }
+
+div.dialog_container div.dialog_window {
+    background-color: #222;
+    color: #fff;
+}
+
+div.dialog_container div.dialog_window h2.dialog_heading {
+    color: #fff;
+}
+
+#torrent_upload_file {
+    height: 60px;
+    border: 1px solid #000;
+    background: #111;
+    color: #fff;
+    padding: 18px 9px;
+    box-sizing: border-box;
+}
